@@ -5,7 +5,7 @@ let game;
 startButton.addEventListener('click', event => {
 	overlay.style.display = 'none';
 
-	game = new Gamepad();
+	game = new Game();
 	game.startgame();
 
 });
