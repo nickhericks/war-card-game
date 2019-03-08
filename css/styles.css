@@ -5,6 +5,7 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	
 }
 
 /*********** OVERLAY ***********/
@@ -33,6 +34,8 @@ body {
 	display: flex;
 	flex: row wrap;
 	width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards {
@@ -41,6 +44,9 @@ body {
 	background-color: lightgreen;
 	border: 1px green solid;
 	margin: 1rem;
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*********** CONTROLS ***********/
