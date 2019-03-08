@@ -46,6 +46,7 @@ class Game {
 		return array;
 	}
 
+
 	// Deal cards to computer and player array
 	dealCards(shuffledDeck) {
 		shuffledDeck.forEach( (card, index) => {
@@ -60,7 +61,12 @@ class Game {
 	}
 
 
+	flipCard() {
 
+		console.log('hello');
+
+
+	}
 
 
 }
