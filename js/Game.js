@@ -1,0 +1,22 @@
+class Game {
+	constructor () {
+
+
+
+
+	}
+
+
+
+	startgame() {
+
+
+		
+	}
+
+
+
+
+
+
+}

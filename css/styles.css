@@ -1,0 +1,59 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/*********** OVERLAY ***********/
+.overlay {
+	background-color: lightblue;
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	height: 100vh;
+	z-index: 10;
+	
+}
+
+.start-button {
+	width: 15rem;
+	height: 5rem;
+	font-size: 2rem;
+	border-radius: 10px;
+	background-color: darkblue;
+	color: lightgray
+}
+
+/*********** GAME ***********/
+
+.table {
+	display: flex;
+	flex: row wrap;
+	width: 100vw;
+}
+
+.cards {
+	width: 10rem;
+	height: 10rem;
+	background-color: lightgreen;
+	border: 1px green solid;
+	margin: 1rem;
+}
+
+/*********** CONTROLS ***********/
+.controls {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.play-card {
+	width: 10rem;
+	height: 3rem;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	background-color: lightcoral;
+}
