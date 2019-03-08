@@ -10,11 +10,13 @@ body {
 
 /*********** OVERLAY ***********/
 .overlay {
+	position: absolute;
 	background-color: lightblue;
   display: flex;
   justify-content: center;
 	align-items: center;
 	height: 100vh;
+	width: 100vw;
 	z-index: 10;
 	
 }

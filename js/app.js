@@ -6,6 +6,7 @@ const flipCardButton = document.querySelector(".flip-card");
 
 let game;
 
+
 // User clicks start button
 startButton.addEventListener('click', event => {
 	overlay.style.display = 'none';
