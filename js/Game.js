@@ -61,12 +61,31 @@ class Game {
 	}
 
 
+	// Flips both cards, decides winner and adds both cards to winner's array
 	flipCard() {
+		console.log('card flipped');
 
-		console.log('hello');
+		// Flip cards from both players
+
+
+		// Compare cards and decide winner
+
+
+		// If tie, declare war!!!
+
+
+		// Take both cards and add them to the winner's array
+
+
+
 
 
 	}
+
+
+
+
+
 
 
 }
