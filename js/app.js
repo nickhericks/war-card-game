@@ -6,6 +6,6 @@ startButton.addEventListener('click', event => {
 	overlay.style.display = 'none';
 
 	game = new Game();
-	game.startgame();
+	game.startGame();
 
 });
