@@ -47,8 +47,9 @@ class Game {
 	}
 
 
-	// Deal cards to computer and player array
+	// Deal cards to computer and player array, and display them to the DOM
 	dealCards(shuffledDeck) {
+		// Deal cards to computer and player arrays
 		shuffledDeck.forEach( (card, index) => {
 			if(index%2 !== 0) {
 				this.computerCards.push(card);
@@ -56,7 +57,15 @@ class Game {
 			else {
 				this.playerCards.push(card);
 			}
-    });
+		});
+		
+		// Display cards to the DOM
+		const computerPile = document.querySelector('.computer-hand');
+		const playerPile = document.querySelector('.player-hand');
+		computerPile.textContent = 'computerPile';
+		// computerPile.classList.add('hide');
+
+
 
 	}
 
@@ -65,7 +74,12 @@ class Game {
 	flipCard() {
 		console.log('card flipped');
 
+		const computerPile = document.querySelector('.computer-play');
+		const playerPile = document.querySelector('.player-play');
+
 		// Flip cards from both players
+		computerPile.classList.remove("hide");
+		playerPile.classList.remove("hide");
 
 
 		// Compare cards and decide winner
