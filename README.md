@@ -4,11 +4,12 @@ This app was built as a way to practice Object-Oriented JavaScript.
 
 ---
 
-<!-- <img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1551887069/portfolio/phrasehunter.png" width="899px"> -->
-
 ## View project
-
 :mag: Live version available at [nickhericks.github.io/war-card-game/](https://nickhericks.github.io/war-card-game/)
+
+
+<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1565078852/portfolio/warcardgame.png" width="899px">
+
 
 ## Project objective
 
